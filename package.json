@@ -14,5 +14,9 @@
 	"license": "ISC",
 	"dependencies": {
 		"nodejs-config": "^1.0.1"
-	}
+	},
+	"bugs": {
+		"url": "https://github.com/freeart/seedbed/issues"
+	},
+	"homepage": "https://github.com/freeart/seedbed#readme"
 }
