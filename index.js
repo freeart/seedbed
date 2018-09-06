@@ -30,6 +30,7 @@ class Core extends EventEmitter {
 		}
 
 		this.emit("ready");
+		process.send('ready');
 	}
 
 	static async create(environment) {
