@@ -1,5 +1,7 @@
 const EventEmitter = require('events');
 
+process.send = process.send || function () {};
+
 class Core extends EventEmitter {
 	constructor() {
 		super();
